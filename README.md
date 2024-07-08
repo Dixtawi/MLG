@@ -1,19 +1,18 @@
 # MLG
 
+Dataset: https://www.kaggle.com/code/gksriharsha/intro-to-networkx-using-twitch-network/input?select=FR
+
+mature.ipynb:
 - Classification de content mature ou pas
+- Est-ce que la structure du graphe a un impact sur le contenu ? Est-ce qu'il apporte une plus-value pour répondre à la question ?
+
+link.ipynb:
 - Prédiction de liens entre les streamers
 
-(Lien avec Recommendation System)
--> Détection de communauté et proposition d'amis proches
+user_game_reco.ipynb:
+- Détection de communauté et proposition d'amis proches (Lien avec Recommendation System)
+- Prédiction d'attribut de node (jeux joués)
+- proposition de featuring entre streamers
 
-Prédiction d'attribut de node (jeux joué) :
-
-- récupération d'attributs des nodes
-- attribut 1 en binaire :
-  - si joué ou non
-  - prédire si le jeu pourrait l'intéresser
-
--> proposition de featuring entre streamers
-
-- Est-ce que la structure du graphe a un impact sur le contenu ? Est-ce qu'il apporte une plus-value pour répondre à la question ?
+centrality.ipynb:
 - Qu'est-ce que c'est que la centralité dans ce graphe (corrélation avec d'autres choses) ?
